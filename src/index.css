@@ -83,3 +83,16 @@ nav ul li:first-child{
     height: 600px;
     border: 1px solid black;
 }
+
+.modalBut a{
+    text-decoration: none;
+    color: black;    
+}
+
+.card{
+    border: 1px solid black;
+    height: 300px;
+    width: 200px;
+    text-align: center;
+}
+
