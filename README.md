@@ -1,4 +1,4 @@
-#Tripling react app
+# Tripling react app
 
 1. Download the repo
 2. npm install
