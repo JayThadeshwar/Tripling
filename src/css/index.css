@@ -126,6 +126,7 @@ nav ul li:first-child{
     word-wrap: break-word;
     hyphens: auto;    
     text-align: center;  
+    font-weight: bold;
 }
 
 .card-footer{

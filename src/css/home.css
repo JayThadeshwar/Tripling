@@ -1,0 +1,60 @@
+nav {
+    background-color: #333;
+    margin: 0;
+    overflow: hidden;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li:first-child {
+    margin-right: 58vw;
+}
+
+.forbg {
+    background: url('../images/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+}
+
+.forspace {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+th, td {
+    padding: 20px;
+}
+
+.txtbox {
+    border-radius: 5px;
+    width: 200px;
+    box-sizing: border-box;
+    border: 5px solid #ccc;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+
+.txtbox:focus {
+    width: 100%;
+}
+
+.pBut{
+    border: 1px solid black;
+    background-color: #ffbb33;
+    padding: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 20px;
+    color: black;
+
+}
