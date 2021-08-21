@@ -64,7 +64,7 @@ class Home extends Component {
         if (e.target.value.length >= 3) {
             let url = new URL('https://api.mapbox.com/geocoding/v5/mapbox.places/'+e.target.value+'.json')
             const opt = {
-                access_token: 'pk.eyJ1Ijoia2FyYW4wMyIsImEiOiJja3J1ZzVidHUwaTM4MnZvY2M1eWp2OHVuIn0.8-9M1R0lPpVbG-2utQA8JQ'
+                access_token: 'MAPBOX_API_KEY'
             }
             url.search = new URLSearchParams(opt).toString();            
             fetch(url)
@@ -95,7 +95,7 @@ class Home extends Component {
         if (e.target.value.length >= 3) {
             let url = new URL('https://api.mapbox.com/geocoding/v5/mapbox.places/'+e.target.value+'.json')
             const opt = {
-                access_token: 'pk.eyJ1Ijoia2FyYW4wMyIsImEiOiJja3J1ZzVidHUwaTM4MnZvY2M1eWp2OHVuIn0.8-9M1R0lPpVbG-2utQA8JQ'
+                access_token: 'MAPBOX_API_KEY'
             }
             url.search = new URLSearchParams(opt).toString();            
             fetch(url)
