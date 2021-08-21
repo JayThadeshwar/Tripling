@@ -7,7 +7,7 @@ import MyModal from './modal.js'
 
 import '../css/index.css';
 
-const openTripMap = '5ae2e3f221c38a28845f05b681d64e946dfd5450129b33de543db865';
+const openTripMap = 'OPENTRIP_API_KEY';
 
 async function getCardData(setXids) {
   let urlX = 'https://api.opentripmap.com/0.1/en/places/xid/'
